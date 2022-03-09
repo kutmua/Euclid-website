@@ -5,8 +5,7 @@
 ☑️ In this project were used the frameworks jQuery (Accordion) in section "Questions", Swiper JS in section "Hero" and Tabs in section "How-we-work".  
 ☑️ The code was written using the BEM methodology, using flexbox.  
 
-### Sections 'Hero' and header
-![image](https://user-images.githubusercontent.com/101246310/157506392-f44dc211-3c17-4154-a57b-091c4dfb2687.png)  
+### Sections 'Hero' and header 
 
 ☑️ The "Search" form is implemented when clicking on the search button and the image Slider for the "Hero" section (using Swiper Js).
 
@@ -18,7 +17,6 @@
 ---
 
 ### Section 'How-we-work'
-![image](https://user-images.githubusercontent.com/101246310/157507621-b11292a1-17e6-4b5b-b502-791ce6b2305f.png)
 
 ☑️ Tabs are implemented in this section. When clicking on the buttons "step 1 ", "step 2 " ... the content and the picture are switched.
 
