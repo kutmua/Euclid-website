@@ -4,6 +4,7 @@
 🖥💻📱 Adaptive, cross-browser layout website "Euclid".  
 ☑️ In this project were used the frameworks jQuery (Accordion) in section "Questions", Swiper JS in section "Hero" and Tabs in section "How-we-work".  
 ☑️ The code was written using the BEM methodology, using flexbox.  
+https://kutmua.github.io/Euclid-website/
 
 ### Sections 'Hero' and header 
 
