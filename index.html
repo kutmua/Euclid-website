@@ -3,22 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Евклид</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Евклид - проекные решения любой сложности">
+  <title>Евклид - проекные решения любой сложности</title>
   <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 
+  <!-- fonts -->
+  <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font">
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font">
+  <link rel="preload" href="fonts/Montserrat-Bold.woff" as="font">
+
   <!-- accordion -->
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/accordion.css">
 
   <!-- swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/swiper.css">
 
+  <!-- main styles -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 
@@ -65,7 +69,7 @@
       </div>
 
       <a href="#" class="header__logo">
-        <img class="header__logo-img" src="./img/header-logo.svg" alt="Логотип">
+        <img class="header__logo-img lazyload" src="./img/header-logo.svg" alt="Логотип">
       </a>
 
       <nav class="navigation flex">
@@ -342,9 +346,9 @@
         </h2>
         <div id="accordion">
           <h3 class="accordion__border">
-            <p class="questions__list-item-text">
+            <span class="questions__list-item-text">
               Из чего формируется конечная стоимость проекта?
-            </p>
+            </span>
             <svg class="questions__cvg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
@@ -359,9 +363,9 @@
             </p>
           </div>
           <h3 class="accordion__border">
-            <p class="questions__list-item-text">
+            <span class="questions__list-item-text">
               У меня есть свой проект. Сможем ли мы его доработать / реализовать?
-            </p>
+            </span>
             <svg class="questions__cvg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
@@ -373,9 +377,9 @@
             </p>
           </div>
           <h3 class="accordion__border">
-            <p class="questions__list-item-text">
+            <span class="questions__list-item-text">
               Я выбираю между разными компаниями. В чём ваше отличие?
-            </p>
+            </span>
             <svg class="questions__cvg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
@@ -387,9 +391,9 @@
             </p>
           </div>
           <h3 class="accordion__border">
-            <p class="questions__list-item-text">
+            <span class="questions__list-item-text">
               Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
-            </p>
+            </span>
             <svg class="questions__cvg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
@@ -404,9 +408,9 @@
             </p>
           </div>
           <h3 class="accordion__border accordion__border-bottom">
-            <p class="questions__list-item-text">
+            <span class="questions__list-item-text">
               Могу ли я вернуть деньги на каком-либо из этапов работ?
-            </p>
+            </span>
             <svg class="questions__cvg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
@@ -525,6 +529,9 @@
     </footer>
   </main>
 
+  <!-- js -->
+  <!-- swiper -->
+  <script src="js/swiper.js"></script>
   <script>
     const swiper = new Swiper('.swiper', {
       loop: true,
@@ -539,6 +546,9 @@
     });
   </script>
 
+  <!-- accordion -->
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/jquery-ui.js"></script>
   <script>
     $( function() {
       $( "#accordion" ).accordion({
@@ -549,6 +559,14 @@
       });
     } );
   </script>
+
+  <!-- lazyload -->
+  <script src="js/lazyload.min.js"></script>
+  <script>
+    lazyload();
+  </script>
+
+  <!-- tabs -->
   <script src="js/tabs.js"></script>
 </body>
 </html>
